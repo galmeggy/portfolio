@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>KwngHo Introduce</title>
+<link rel="stylesheet"  type="text/css" href="style.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+	var count = 0;
+	var i = 1;
+	setInterval(function(){
+		if(count>2) i=-1;
+		if(count<1) i=1;
+		count= count + i;
+		if(i>0){
+			$(".Imgs").css("left","-=260px");
+			$(".Imgs").css("transition","400ms ease");
+		}else{
+			$(".Imgs").css("left","+=260px");
+			$(".pImgs").css("transition","400ms ease");
+		}
+	}, 1500);
+</script>
+</head>
+<body>
+<div id="header">
+	<div class="logo_wrap">
+		<div class="logo">
+			<span style="font-weight: bold; font-size: 32px; color: #00B900;">Portfolio</span>
+			<span style="font-weight: bold; font-size: 20px; color: #55B956;">(for LINE)</span>
+		</div>
+	</div>
+</div>
+<div id="content">
+<div class="container01">
+	<div class="p_box01">
+		<span style="color: #ffffff; font-size: 45px;">명광호의</span><br>
+		<span style="color: #ffffff; font-size: 30px;">개인 Portfolio 사이트 입니다.</span>
+		
+	</div>
+</div>
+<div class="container02">
+	<div class="img_box02">
+	</div>
+	<div class="p_box02">
+		<span style="color: #1f1f1f; font-size: 45px;">저는 명광호입니다.</span><br>
+		<span style="color: #1f1f1f; font-size: 16px;">지금 충북대학교 4학년에 재학중입니다.</span><br>
+		<span style="color: #1f1f1f; font-size: 16px;">저는 이런 것들을 좋아합니다.</span><br>
+		<span style="color: #1f1f1f; font-size: 16px;">1년의 휴학동안 이런 것들을 했습니다.</span><br>
+		<span style="color: #1f1f1f; font-size: 16px;">이런 웹사이트를 만들어봤습니다.</span><br>
+	</div>
+</div>
+<div class="container03">
+	<div class="p_box03">
+		<span style="color: #1f1f1f; font-size: 40px;">저는 이런 것들을 좋아합니다.</span><br>
+	</div>
+	<div class="img_wrap03">
+		<div class="img_box03">
+			<ul class="Imgs">
+				<li><img src="img/trip01.jpg"/></li>
+				<li><img src="img/trip02.jpg"/></li>
+				<li><img src="img/trip03.jpg"/></li>
+				<li><img src="img/trip04.jpg"/></li>
+			</ul>
+		</div>
+		<div class="img_ibox03">
+			<span style="color: #1f1f1f; font-size: 16px; font-weight: bold;">저는 여행을 좋아합니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;">혼자서 또는 여럿이서 계획하고 떠나서 만날 수 있는 일상과는 다른 경험이 좋습니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;"></span><br>
+		</div>
+	</div>
+	<div class="img_wrap03">
+		<div class="img_box03">
+			<ul class="Imgs">
+				<li><img src="img/friends01.jpg"/></li>
+				<li><img src="img/friends02.jpg"/></li>
+				<li><img src="img/friends03.jpg"/></li>
+				<li><img src="img/friends04.jpg"/></li>
+			</ul>
+		</div>
+		<div class="img_ibox03">
+			<span style="color: #1f1f1f; font-size: 16px; font-weight: bold;">저는 만남을 좋아합니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;">혼자도 좋지만 어떤 일을 할 때 사람들과 어울려 함께 한다면 즐거움이 배가 됩니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;"></span><br>
+		</div>
+	</div>
+	<div class="img_wrap03">
+		<div class="img_box03">
+			<ul class="Imgs">
+				<li><img src="img/exer01.jpg"/></li>
+				<li><img src="img/exer02.jpg"/></li>
+				<li><img src="img/exer03.jpg"/></li>
+				<li><img src="img/exer04.jpg"/></li>
+			</ul>
+		</div>
+		<div class="img_ibox03">
+			<span style="color: #1f1f1f; font-size: 16px; font-weight: bold;">저는 운동을 좋아합니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;">축구를 특히 좋아하고, 개인 헬스에도 관심이 많습니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 13px;"></span><br>
+		</div>
+	</div>
+</div>
+<div class="container04">
+	<div class="p_box04">
+		<span style="color: #1f1f1f; font-size: 40px;">1년의 휴학동안 이런 것들을 했습니다.</span><br>
+	</div>
+	<div class="img_wrap04">
+		<div class="img_box04_1">
+		</div>
+		<div class="p_box04_1">
+			<span style="color: #1f1f1f; font-size: 25px;">아르바이트</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">휴학 초반에는 돈을 모으기 위해 편의점, 모델하우스</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">등의 아르바이트를 6개월간 했고, 후반에는  집안 사업을</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;"> 도와 호두과자를 3개월간 만들었습니다.</span><br>
+		</div>
+	</div>
+	<div class="img_wrap04">
+		<div class="p_box04_2">
+			<span style="color: #1f1f1f; font-size: 25px;">공부</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">학기중에 해보고 싶었던 공부였습니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">휴학 기간동안 책과 유투브, 사설 강의를 통해 HTML,</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">CSS, JavaScript, JSP를 공부하게 되었고, 재밌게 배웠습니다.</span><br>
+		</div>
+		<div class="img_box04_2">
+		</div>
+	</div>
+	<div class="img_wrap04">
+		<div class="img_box04_3">
+		</div>
+		<div class="p_box04_3">
+			<span style="color: #1f1f1f; font-size: 25px;">런던 여행</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">그동안 가고싶었던 런던으로 떠났습니다. 처음으로 혼자</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;"> 떠난 해외였고, 제가 모은 돈으로 간 여행이였습니다.</span><br>
+			<span style="color: #1f1f1f; font-size: 16px;">3개월간 좋은 경험이였고, 다양한 경험을 해볼 수 있었습니다.</span><br>
+		</div>
+	</div>
+</div>
+<div class="container05">
+	<div class="p_box05">
+		<span style="color: #1f1f1f; font-size: 40px;">이런 웹 사이트를 만들어 봤습니다.</span><br>
+	</div>
+	<div class="img_wrap05">
+		<div class="img_box05">
+			<img src="img/web01.png" width="900px">
+		</div>
+		<div class="img_ibox05">
+			<span style="color: #1f1f1f; font-size: 18px;">이클립스 개발 환경에서 apache 웹 서버로 JSP페이지를 제작했습니다.</span>
+		</div>
+	</div>
+	<div class="img_wrap05">
+		<div class="img_box05">
+			<img src="img/web02.png" width="900px">
+		</div>
+		<div class="img_ibox05">
+			<span style="color: #1f1f1f; font-size: 18px;">집안 사업으로 일했었던 호두과자 판매 웹 사이트입니다.</span>
+		</div>
+	</div>
+	<div class="img_wrap05">
+		<div class="img_box05">
+			<img src="img/web03.png" width="900px">
+		</div>
+		<div class="img_ibox05">
+			<span style="color: #1f1f1f; font-size: 18px;">회원 온라인 주문, 주문 관리등의 기능들로 만들어 보았습니다.</span>
+		</div>
+	</div>
+</div>
+</div>
+<div id="footer">
+	<span style="font-size: 18px; color: #fafafa;">
+		충북대학교 정보통신공학부<br>
+		명광호<br>
+		010-9320-6136<br>
+		audrhkdgh71@naver.com
+	</span>
+</div>
+</body>
+</html>
