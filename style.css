@@ -93,7 +93,41 @@ body{
 }
 #content .container03 .p_box03_2 span{
 	color: #393939;
-	font-size: 14px;
+	font-size: 16px;
+}
+#content .container03 .p_box03_2 table{
+	margin-top: 15px;
+	border-collapse: collapse;
+	width: 100%;
+}
+#content .container03 .p_box03_2 tr{
+	margin: 0px;
+}
+#content .container03 .p_box03_2 .td01{
+	border-right: 6px solid #D70C19;
+	padding: 100px 25px;
+	text-align: right;
+}
+#content .container03 .p_box03_2 .td01 p{
+	text-align: right;
+	color: #393939;
+	font-size: 16px;
+	line-height: 30px;
+}
+#content .container03 .p_box03_2 .td01 img{
+	height: 100px;
+}
+#content .container03 .p_box03_2 .td02{
+	padding: 100px 25px;
+}
+#content .container03 .p_box03_2 .td02 p{
+	text-align: left;
+	color: #393939;
+	font-size: 16px;
+	line-height: 30px;
+}
+#content .container03 .p_box03_2 .td02 img{
+	height: 100px;
 }
 #content .container04{
 	overflow: hidden;
