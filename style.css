@@ -25,7 +25,7 @@ body{
 #content .container01{
 	overflow: hidden;
 	width: 100%;
-	min-width: 1024px;
+	min-width: 1200px;
 	margin: 0 auto;
 }
 #content .container01 .p_box01{
@@ -73,6 +73,7 @@ body{
 #content .container03{
 	overflow: hidden;
 	width: 100%;
+	min-width: 1200px;
 	padding-top: 150px;
 	background-color: #ffffff;
 }
